@@ -84,4 +84,47 @@
     "workbench.settings.useSplitJSON": true,
     "workbench.startupEditor": "newUntitledFile",
     "workbench.panel.defaultLocation": "right",
+    "files.associations": {
+      ".env*": "dotenv"
+    },
+    "editor.tokenColorCustomizations": {
+      "[*Light*]": {
+        "textMateRules": [
+          {
+            "scope": "ref.matchtext",
+            "settings": {
+              "foreground": "#000"
+            }
+          }
+        ]
+      },
+      "[*Dark*]": {
+        "textMateRules": [
+          {
+            "scope": "ref.matchtext",
+            "settings": {
+              "foreground": "#fff"
+            }
+          }
+        ]
+      },
+      "textMateRules": [
+        {
+          "scope": "keyword.other.dotenv",
+          "settings": {
+            "foreground": "#FF000000"
+          }
+        }
+      ]
+    },
+    "files.autoSave": "afterDelay",
+    "editor.inlineSuggest.enabled": true,
+    "github.copilot.enable": {
+      "*": false,
+      "plaintext": true,
+      "markdown": true,
+      "scminput": false,
+      "html": false,
+      "javascript": false
+    },
 }
